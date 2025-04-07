@@ -14,11 +14,21 @@ export default function Choice(
     return null;
   }
   return (
-    <div>
-      <hr />
-      <button disabled={best !== '' || worst === choiceId} onClick={() => handleChoice('best', choiceId)}>Best</button>
-      <span>{choice}</span>
-      <button disabled={worst !== '' || best === choiceId} onClick={() => handleChoice('worst', choiceId)}>Worst</button>
+    <div className="choice">
+      <button className="bestButton" type="button"
+        disabled={
+          (best !== '' && best !== choiceId) || worst === choiceId
+        }
+        aria-label={`${choiceId} is best`}
+        onClick={() => handleChoice('best', choiceId)}>Best</button>
+      <span aria-label={choiceId}>{choice}</span>
+      <button className="worstButton" type="button"
+        disabled={
+          (worst !== '' && worst !== choiceId) || best === choiceId
+        }
+        aria-label={`${choiceId} is worst`}
+
+        onClick={() => handleChoice('worst', choiceId)}>Worst</button>
     </div>
   )
 }
