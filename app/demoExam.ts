@@ -65,3 +65,17 @@ const exam: Exam = {
 }
 
 export default exam;
+
+// Rubric summary
+
+// Q1  rubricBest: 'choice_A',
+//     rubricWorst: 'choice_D'
+
+// Q2  rubricBest: 'choice_C',
+//     rubricWorst: 'choice_B'
+
+// Q3  rubricBest: 'choice_D',
+//     rubricWorst: 'choice_A'
+
+// Q4  rubricBest: 'choice_B',
+//     rubricWorst: 'choice_D'
