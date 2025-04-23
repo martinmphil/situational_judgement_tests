@@ -30,10 +30,10 @@ The TypeScript file `app/page.tsx` holds the app root.
 ## End-to-end automated testing
 `npm run build` 
 
-`npx serve@latest out -p 3000` 
+`npm run start` 
 
 In new terminal 
-`npx playwright test` 
+`npm run test` 
 
 ### To step through end-to-end tests
 `npx playwright test --project chromium --debug`

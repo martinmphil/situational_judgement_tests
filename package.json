@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "npx serve@latest out -p 3000",
+    "lint": "next lint",
+    "test": "npx playwright test"
   },
   "dependencies": {
     "next": "^15.3.0",
