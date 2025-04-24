@@ -13,7 +13,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <header>
+          <p>
+            <a href="../">Return to demo page</a>
+          </p>
+        </header>
+
+        {children}
+      </body>
     </html>
   );
 }
