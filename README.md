@@ -24,7 +24,9 @@ The TypeScript file `app/page.tsx` holds the app root.
 
 
 ## Serve production build
-`npx serve@latest out -p 3000` 
+`npm run build` 
+
+`npm run start` 
 
 
 ## End-to-end automated testing
@@ -49,7 +51,7 @@ In new terminal
 In a new branch 
 `npm install <package-name>@latest` 
 
-Run end-to-end testing suite and commit 
+Run end-to-end testing suite and commit. Then merge with main branch and push to remote repository.
 
 
 ## Next 
