@@ -14,9 +14,7 @@ Mutual exclusivity in two dimensions ensures user can only pick a single best op
 
 ## Start development server
 
-```bash
-npm run dev
-```
+`npm run dev`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to preview this app with hot reloading of changes made to the source files. 
 
@@ -43,15 +41,21 @@ In new terminal
 ### Generating end-to-end tests
 `npx playwright codegen`
 
-## Updating
+## Updating 
+
+In git checkout new branch. 
+
 `npm update` 
 
 `npm outdated` 
 
-In a new branch 
 `npm install <package-name>@latest` 
 
-Run end-to-end testing suite and commit. Then merge with main branch and push to remote repository.
+Manually test and run end-to-end testing suite. 
+
+If Playwright updated then execute `npx playwright install` and rerun end-to-end testing suite. 
+
+Commit changes to git. Merge updated branch with main. Push to remote repository. 
 
 
 ## Next 
