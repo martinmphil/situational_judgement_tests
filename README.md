@@ -45,11 +45,21 @@ In new terminal
 
 In git checkout new branch. 
 
-`npm update` 
+`npm update --save` 
 
-`npm outdated` 
+To update major versions, use either
 
-`npm install <package-name>@latest` 
+```bash
+npm outdated
+npm install <package-name>@latest
+```
+
+or
+```bash
+npx npm-check-updates
+npx npm-check-updates -u
+npm install
+```
 
 Manually test and run end-to-end testing suite. 
 
