@@ -45,16 +45,6 @@ In new terminal
 
 In git checkout new branch. 
 
-`npm update --save` 
-
-To update major versions, use either
-
-```bash
-npm outdated
-npm install <package-name>@latest
-```
-
-or
 ```bash
 npx npm-check-updates
 npx npm-check-updates -u
