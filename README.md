@@ -27,20 +27,6 @@ The TypeScript file `app/page.tsx` holds the app root.
 `npm run start` 
 
 
-## End-to-end automated testing
-`npm run build` 
-
-`npm run start` 
-
-In new terminal 
-`npm run test` 
-
-### To step through end-to-end tests
-`npx playwright test --project chromium --debug`
-
-### Generating end-to-end tests
-`npx playwright codegen`
-
 ## Updating 
 
 In git checkout new branch. 
@@ -56,6 +42,20 @@ Manually test and run end-to-end testing suite.
 If Playwright updated then execute `npx playwright install` and rerun end-to-end testing suite. 
 
 Commit changes to git. Merge updated branch with main. Push to remote repository. 
+
+## End-to-end automated testing
+`npm run build` 
+
+`npm run start` 
+
+In new terminal 
+`npm run test` 
+
+### To step through end-to-end tests
+`npx playwright test --project chromium --debug`
+
+### Generating end-to-end tests
+`npx playwright codegen`
 
 
 ## Next 
